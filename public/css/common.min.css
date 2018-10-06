@@ -105,8 +105,12 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 .btn-group .btn+.btn,.btn-group .btn+.btn-group,.btn-group .btn-group+.btn,.btn-group .btn-group+.btn-group{
     margin-left:0
 }
+.table-striped > tbody > tr:nth-child(2n+1) > td, 
+.table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #141414;
+}
 .table-hover>tbody>tr:hover>td,.table-hover>tbody>tr:hover>th{
-    background-color:#F0F7E2
+    background-color:#936841
 }
 .navbar{
     min-height:64px
@@ -137,8 +141,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     color:#936841
 }
 .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>.active>a:hover{
-    background-color:#fff;
-    color:#797979
+    background-color:#936841;
+    color:#EBEBEB
 }
 .navbar-form .form-group{
     display:block
@@ -235,7 +239,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     background-color:#F4F4F4;
     border-radius:5px;
     padding:14px;
-    border:1px solid #eee
+    border:1px solid #eee;
     color:#000;
 }
 .col-gray-responsive{
