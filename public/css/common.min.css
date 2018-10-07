@@ -701,6 +701,9 @@ a.v_highlight_more{
 .well {
     background-color:#373D42;
 }
+.panel {
+    background-color:#000;
+}
 @media (max-width: 991px){
     .status{
         display:none
