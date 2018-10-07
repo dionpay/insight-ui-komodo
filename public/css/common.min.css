@@ -704,6 +704,10 @@ a.v_highlight_more{
 .panel {
     background-color:#000;
 }
+#chart svg {
+    background-color:#373D42;
+}
+
 @media (max-width: 991px){
     .status{
         display:none
