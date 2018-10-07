@@ -236,11 +236,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 .col-gray{
     -moz-border-radius:5px;
     -webkit-border-radius:5px;
-    background-color:#F4F4F4;
+    background-color:#141414;
     border-radius:5px;
     padding:14px;
     border:1px solid #eee;
-    color:#000;
+    color:#EBEBEB;
 }
 .col-gray-responsive{
     width:auto
@@ -616,6 +616,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 #powered a.leveldb{
     background-image:url('../img/leveldb.png');
+    background-size:50px;
+    width:20%
+}
+#powered a.dionpay{
+    background-image:url('../img/dionright.png');
     background-size:50px;
     width:20%
 }
