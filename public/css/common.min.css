@@ -592,7 +592,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     background-repeat:no-repeat;
     background-position:center center;
     display:inline-block;
-    height:80px
+    height:250px
 }
 #powered a.supernet{
     background-image:url('../img/supernet.png');
@@ -621,8 +621,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 #powered a.dionpay{
     background-image:url('../img/dionright.png');
-    background-size:50px;
-    width:20%
+    background-size:50% 100%;
+    width:100%
 }
 @keyframes "rotateThis"{
     from{
