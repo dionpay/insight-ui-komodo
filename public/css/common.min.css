@@ -297,7 +297,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 .block-tx{
     -moz-border-radius:2px;
     -webkit-border-radius:2px;
-    background-color:#F4F4F4;
+    background-color:#373D42;
     border-radius:2px;
     margin:20px 0 10px;
     overflow:hidden;
@@ -663,7 +663,7 @@ a.v_highlight_more{
 }
 .secondary_navbar{
     width:100%;
-    background:#fff;
+    background:#373D42;
     position:fixed;
     top:64px;
     left:0;
@@ -697,6 +697,9 @@ a.v_highlight_more{
 }
 #search-form-mobile{
     margin-top:15px
+}
+.well {
+    background-color:#373D42;
 }
 @media (max-width: 991px){
     .status{
